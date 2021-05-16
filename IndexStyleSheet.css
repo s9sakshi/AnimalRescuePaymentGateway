@@ -1,0 +1,34 @@
+﻿body {
+    font-family: "Raleway", Arial, sans-serif;
+    background-color: #8EE4AF;
+    color: #05386B;
+    text-align: center;
+    font-family: merriweather;
+}
+
+
+@media screen and (min-width: 600px) {
+    .flex_container {
+        display: flex;
+        background-color: #8EE4AF;
+    }
+}
+
+.flex_container > div {
+    background-color: #8EE4AF;
+    margin: 2px;
+    padding: 2px;
+    font-size: 20px;
+    text-align: center;
+    flex: 1;
+    color: #05386B;
+    font-size: 30px;
+}
+
+.container {
+    padding: 10px;
+}
+
+.tab-content {
+    font-size: 30px;
+}
